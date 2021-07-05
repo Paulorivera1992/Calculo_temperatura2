@@ -1,0 +1,23 @@
+import Funciones 
+
+nombre_archivo_configuracion='/home/ubuntu/calculo_temperatura/configuracion.txt'
+ip=Funciones.cargar_ip(nombre_archivo_configuracion)
+print("la ip es: ",ip)
+puerto=Funciones.cargar_puerto(nombre_archivo_configuracion)
+print("el puerto es: ",puerto)
+t_exposicion=Funciones.cargar_tiempo_exposicion(nombre_archivo_configuracion)
+print("el tiempo de exposicion es: ",t_exposicion)
+f_adquisicion=Funciones.cargar_frecuencia_adquicision(nombre_archivo_configuracion)
+print("el frecuencia de adquisicion es: ",f_adquisicion)
+ganancia=Funciones.cargar_ganancia(nombre_archivo_configuracion)
+print("el ganancia es: ",ganancia)
+p_ancho=Funciones.cargar_ancho(nombre_archivo_configuracion)
+print("el numero de pixeles ancho: ",p_ancho)
+p_alto=Funciones.cargar_alto(nombre_archivo_configuracion)
+print("el numero de pixeles alto: ",p_alto)
+offset_x=Funciones.cargar_offsetx(nombre_archivo_configuracion)
+print("el numero de offset x: ",offset_x)
+offset_y=Funciones.cargar_offsety(nombre_archivo_configuracion)
+print("el numero de offset y: ",offset_y)
+t_integracion=Funciones.cargar_tiempo_integracion(nombre_archivo_configuracion)
+print("el tiempo de integracion: ",t_integracion)

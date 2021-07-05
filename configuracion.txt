@@ -1,0 +1,12 @@
+ip: 192.168.0.101
+puerto: 4840
+nombre sensor: sensor 10
+tiempo_exposicion: 3000.0
+frecuencia_adquisicion: 30.0
+ganancia: 10
+pixeles_ancho: 1920
+pixeles_alto: 1200
+offset_x: 0
+offset_y: 0
+tiempo_integracion: 20000.0
+activacion_soot: 0
